@@ -339,3 +339,22 @@
   text-shadow: 1px 1px 2px #0a0a0a;
 }
 
+.hhh h4{
+position: relative;
+display: inline-block;
+padding: 0 55px;
+font-weight: bold;
+}
+
+.hhh h4:before, .hhh h4:after{
+content: '';
+position: absolute;
+top: 50%;
+display: inline-block;
+width: 45px;
+height: 3px;
+background-color: black;
+}
+
+.hhh h4:before {left:0;}
+.hhh h4:after {right: 0;}
