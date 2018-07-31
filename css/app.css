@@ -78,30 +78,30 @@
 }
 
 .card-info.alert {
-  border-color: #cc4b37;
+  border-color: rgba(237, 76, 103,1.0);
 }
 
 .card-info.alert .card-info-label {
-  border-color: transparent #cc4b37 transparent transparent;
-  border-color: rgba(255, 255, 255, 0) #cc4b37 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+  border-color: transparent rgba(237, 76, 103,1.0) transparent transparent;
+  border-color: rgba(255, 255, 255, 0) rgba(237, 76, 103,1.0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
 }
 
 .card-info.success {
-  border-color: #3adb76;
+  border-color: #cacaca;
 }
 
 .card-info.success .card-info-label {
-  border-color: transparent #3adb76 transparent transparent;
-  border-color: rgba(255, 255, 255, 0) #3adb76 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+  border-color: transparent #cacaca transparent transparent;
+  border-color: rgba(255, 255, 255, 0) #cacaca rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
 }
 
 .card-info.warning {
-  border-color: #ffae00;
+  border-color: rgba(18, 203, 196,1.0);
 }
 
 .card-info.warning .card-info-label {
-  border-color: transparent #ffae00 transparent transparent;
-  border-color: rgba(255, 255, 255, 0) #ffae00 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+  border-color: transparent rgba(18, 203, 196,1.0) transparent transparent;
+  border-color: rgba(255, 255, 255, 0) rgba(18, 203, 196,1.0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
 }
 
 .card-info .card-info-label {
@@ -159,10 +159,10 @@
 }
 
 .today{
-    background: red;
+    background: rgba(238, 90, 36,1.0);
 }
 .tomorrow{
-    background: pink;
+    background: rgba(238, 90, 36,0.4);
 }
 
 .tomorrow-text{
@@ -190,7 +190,7 @@
 
 
 .topbar-responsive {
-  background: #2c3840;
+  background: rgba(238, 90, 36,1.0);
   padding: 1rem 1.5rem;
 }
 
@@ -200,7 +200,7 @@
 }
 
 .topbar-responsive .menu {
-  background: #2c3840;
+  background: rgba(238, 90, 36,1.0);
 }
 
 .topbar-responsive .menu li:last-of-type {
@@ -358,3 +358,80 @@ background-color: black;
 
 .hhh h4:before {left:0;}
 .hhh h4:after {right: 0;}
+
+.wp {
+  font-weight: bold;
+  color: red;
+}
+
+
+.contact-us-section {
+  padding: 2rem;
+  background: rgba(238, 90, 36,1.0);
+  color: #fff;
+}
+
+.contact-us-section .contact-us-section-left {
+  padding-right: 2rem;
+  border-bottom: 2px solid #e6e6e6;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media print, screen and (min-width: 40em) {
+  .contact-us-section .contact-us-section-left {
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+.contact-us-section .contact-us-section-right {
+  padding-left: 2rem;
+}
+
+@media print, screen and (min-width: 40em) {
+  .contact-us-section .contact-us-section-right {
+    border-left: 1px solid #e6e6e6;
+  }
+}
+
+.contact-us-section .contact-us-header {
+  margin-bottom: 1.5rem;
+  font-weight:bold;
+}
+
+@media screen and (min-width: 40em) and (max-width: 74.9375em) {
+  .contact-us-section .contact-us-header {
+    font-size: 32px;
+  }
+}
+
+.contact-us-section .responsive-embed {
+  margin-bottom: 0;
+  padding-bottom: 50%;
+}
+
+
+.contact-us-list {
+  list-style-type: none;
+  margin: 0;
+}
+
+.contact-us-list .fas{
+  margin-right:1rem;
+}
+
+.contact-us-list .address{
+  margin-left: 0.2rem;
+}
+
+.contact-us-list .parking{
+  margin-left: 0.1rem;
+}
+
+.bold{
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
