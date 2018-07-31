@@ -372,7 +372,7 @@ background-color: black;
 }
 
 .contact-us-section .contact-us-section-left {
-  padding-right: 2rem;
+
   border-bottom: 2px solid #e6e6e6;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
@@ -384,22 +384,27 @@ background-color: black;
     border-bottom: 0;
     padding-bottom: 0;
     margin-bottom: 0;
+   padding-right: 2rem;
   }
 }
 
-.contact-us-section .contact-us-section-right {
-  padding-left: 2rem;
-}
 
 @media print, screen and (min-width: 40em) {
   .contact-us-section .contact-us-section-right {
     border-left: 1px solid #e6e6e6;
+    padding-left: 2rem;
   }
 }
 
 .contact-us-section .contact-us-header {
   margin-bottom: 1.5rem;
   font-weight:bold;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .contact-us-section-right,.contact-us-section-left{
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 40em) and (max-width: 74.9375em) {
@@ -434,4 +439,8 @@ background-color: black;
 .bold{
   font-weight: bold;
   margin-top: 1.5rem;
+}
+
+.team{
+  margin-top: 2rem;
 }
