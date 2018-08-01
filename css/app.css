@@ -50,23 +50,6 @@
   border-color: rgba(255, 255, 255, 0) #8a8a8a rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
 }
 
-.card-info.primary {
-  border-color: #1779ba;
-}
-
-.card-info.primary .card-info-label {
-  border-color: transparent #1779ba transparent transparent;
-  border-color: rgba(255, 255, 255, 0) #1779ba rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
-}
-
-.card-info.secondary {
-  border-color: #767676;
-}
-
-.card-info.secondary .card-info-label {
-  border-color: transparent #767676 transparent transparent;
-  border-color: rgba(255, 255, 255, 0) #767676 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
-}
 
 .card-info.info {
   border-color: #37a0e6;
@@ -78,12 +61,12 @@
 }
 
 .card-info.alert {
-  border-color: rgba(237, 76, 103,1.0);
+  border-color: rgba(255, 71, 87,1.0);
 }
 
 .card-info.alert .card-info-label {
-  border-color: transparent rgba(237, 76, 103,1.0) transparent transparent;
-  border-color: rgba(255, 255, 255, 0) rgba(237, 76, 103,1.0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+  border-color: transparent rgba(255, 71, 87,1.0) transparent transparent;
+  border-color: rgba(255, 255, 255, 0) rgba(255, 71, 87,1.0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
 }
 
 .card-info.success {
@@ -159,10 +142,10 @@
 }
 
 .today{
-    background: rgba(238, 90, 36,1.0);
+    background: rgba(255, 71, 87,1.0);
 }
 .tomorrow{
-    background: rgba(238, 90, 36,0.4);
+    background: rgba(255, 71, 87,0.3);
 }
 
 .tomorrow-text{
@@ -190,7 +173,7 @@
 
 
 .topbar-responsive {
-  background: rgba(238, 90, 36,1.0);
+  background: rgba(30, 144, 255,1.0);
   padding: 1rem 1.5rem;
 }
 
@@ -200,7 +183,7 @@
 }
 
 .topbar-responsive .menu {
-  background: rgba(238, 90, 36,1.0);
+  background: rgba(30, 144, 255,1.0);
 }
 
 .topbar-responsive .menu li:last-of-type {
@@ -319,7 +302,7 @@
 
 
 .hero-section {
-  background: url("https://static.pexels.com/photos/248064/pexels-photo-248064.jpeg") 50% no-repeat;
+  background: url("../image/top.jpg") 50% no-repeat;
   background-size: cover;
   height: 60vh;
   text-align: center;
@@ -344,6 +327,7 @@ position: relative;
 display: inline-block;
 padding: 0 55px;
 font-weight: bold;
+margin: 3rem auto 1rem;
 }
 
 .hhh h4:before, .hhh h4:after{
@@ -367,7 +351,7 @@ background-color: black;
 
 .contact-us-section {
   padding: 2rem;
-  background: rgba(238, 90, 36,1.0);
+  background: rgba(30, 144, 255,1.0);
   color: #fff;
 }
 
@@ -443,4 +427,170 @@ background-color: black;
 
 .team{
   margin-top: 2rem;
+}
+
+
+.card-product-hover-title {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+}
+
+.card-product-hover {
+  position: relative;
+  line-height: 1.2rem;
+  transition: all 0.35s ease;
+}
+
+.card-product-hover-details {
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  padding: 1rem;
+}
+
+.card-product-hover-details > :last-child {
+  margin-bottom: 0;
+}
+
+.card-product-hover-price {
+  margin: 0.5rem 0;
+  font-weight: 700;
+  color: #1779ba;
+  font-size: #1779ba;
+}
+
+.card-product-hover-icons {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.card-product-hover-icons a i {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  width: 2.5rem;
+  background-color: #fefefe;
+  text-align: center;
+  color: #0a0a0a;
+}
+
+.card-product-hover-icons a i:hover {
+  background-color: #8a8a8a;
+  color: #fefefe;
+  cursor: pointer;
+}
+
+.card-product-hover-icons a {
+  margin: 2px;
+  opacity: 0;
+  -webkit-transform: translateY(50%);
+      -ms-transform: translateY(50%);
+          transform: translateY(50%);
+  transition: all 0.35s ease;
+}
+
+.card-product-hover:hover a,
+.card-product-hover.hover a {
+  transition: all 0.35s ease;
+  opacity: 1;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.card-product-hover:hover a:nth-child(2),
+.card-product-hover.hover a:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.card-product-hover:hover a:nth-child(3),
+.card-product-hover.hover a:nth-child(3) {
+  transition-delay: 0.2s;
+}
+
+
+.button-rounded-hover {
+  border: 0;
+  border-radius: 5000px;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  background: rgb(89,170,77);
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  transition: all 0.35s ease;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+.button-rounded-hover:before {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: inherit;
+  background-color: #fefefe;
+  transition: all 0.3s;
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.button-rounded-hover:after {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border: 1px solid rgb(89,170,77);
+  content: '';
+  border-radius: inherit;
+}
+
+.button-rounded-hover:hover,
+.button-rounded-hover:focus {
+  background-color: rgba(89,170,77,0.8);
+}
+
+.button-rounded-hover:hover:before,
+.button-rounded-hover:focus:before {
+  -webkit-transform: translateX(0%);
+      -ms-transform: translateX(0%);
+          transform: translateX(0%);
+  opacity: 0.25;
+}
+
+.peatix{
+  font-size: 0.7rem;
+}
+
+.hazimete, .hazimete:focus{
+  border-radius: 5000px;
+  font-size: 1.1rem;
+  background: rgba(255, 71, 87,0.7);
+  border: 2px rgba(255, 71, 87,1.0);
+}
+
+.hazimete:hover{
+  background:rgba(255,255,255,0.7);
+  border: 2px rgba(255, 71, 87,1.0);
 }
