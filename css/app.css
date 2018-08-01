@@ -595,3 +595,6 @@ background-color: black;
   background:rgba(255,71,87,0.7);
   border: 2px rgba(255, 71, 87,1.0);
 }
+.reveal{
+  padding:2rem;
+}
