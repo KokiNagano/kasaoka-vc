@@ -1,4 +1,7 @@
 
+body{
+  background:#f8f8f8;
+}
 .stats-list {
   list-style-type: none;
   clear: left;
@@ -121,7 +124,7 @@
 
 .box30 {
     margin: 2em 0;
-    background: #f1f1f1;
+    background: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
 }
 .box30 .box-title {
@@ -342,6 +345,18 @@ background-color: black;
 
 .hhh h4:before {left:0;}
 .hhh h4:after {right: 0;}
+
+
+
+.hhhh h4 {
+padding: 0.5em;/*文字周りの余白*/
+color: #494949;/*文字色*/
+background: #fff;/*背景色*/
+border-left: solid 5px rgba(30, 144, 255,1.0);/*左線（実線 太さ 色）*/
+text-align:left;
+font-weight: bold;
+margin: 3rem auto 1rem;
+}
 
 .wp {
   font-weight: bold;
@@ -598,3 +613,7 @@ background-color: black;
 .reveal{
   padding:2rem;
 }
+
+/*.box99{
+  border: 1px solid #cacaca;
+}*/
