@@ -584,13 +584,14 @@ background-color: black;
 }
 
 .hazimete, .hazimete:focus{
+  margin: 1rem;
   border-radius: 5000px;
   font-size: 1.1rem;
-  background: rgba(255, 71, 87,0.7);
+  background: rgba(255, 71, 87,1);
   border: 2px rgba(255, 71, 87,1.0);
 }
 
 .hazimete:hover{
-  background:rgba(255,255,255,0.7);
+  background:rgba(255,71,87,0.7);
   border: 2px rgba(255, 71, 87,1.0);
 }
