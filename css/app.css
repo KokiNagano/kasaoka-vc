@@ -331,6 +331,7 @@ display: inline-block;
 padding: 0 55px;
 font-weight: bold;
 margin: 3rem auto 1rem;
+color:#1e366a;
 }
 
 .hhh h4:before, .hhh h4:after{
@@ -340,7 +341,7 @@ top: 50%;
 display: inline-block;
 width: 45px;
 height: 3px;
-background-color: black;
+background-color:#1e366a;
 }
 
 .hhh h4:before {left:0;}
@@ -617,3 +618,17 @@ margin: 3rem auto 1rem;
 /*.box99{
   border: 1px solid #cacaca;
 }*/
+
+.news ul,.news ol {
+    color: #1e366a;
+    border: dotted #1e366a 1px;/*ドット 色 太さ*/
+    padding: 0.5em 0.5em 0.5em 2em;
+    list-style: none;
+    margin:0;
+}
+
+.news ul li,.news ol li {
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
+
